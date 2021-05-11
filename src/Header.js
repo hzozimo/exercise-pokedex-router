@@ -7,7 +7,7 @@ class Header extends React.Component {
       <header>
         <Link to='/exercise-pokedex-router/'>Home</Link>
         <span> | </span>
-        <Link to='/about'>About Pokedex</Link>
+        <Link to='/exercise-pokedex-router/about'>About Pokedex</Link>
       </header>
     );
   }
