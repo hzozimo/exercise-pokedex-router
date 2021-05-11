@@ -5,7 +5,7 @@ class Header extends React.Component {
   render () { 
     return(
       <header>
-        <Link to='/'>Home</Link>
+        <Link to='/exercise-pokedex-router/'>Home</Link>
         <span> | </span>
         <Link to='/about'>About Pokedex</Link>
       </header>

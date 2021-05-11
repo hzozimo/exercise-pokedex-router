@@ -15,7 +15,7 @@ function App() {
         <Header />
         <h1> Pokedex </h1>
         <Switch>
-          <Route exact path='/' render={ (props)=> <Pokedex {...props} pokemons={pokemons} />}/>
+          <Route exact path='/exercise-pokedex-router' render={ (props)=> <Pokedex {...props} pokemons={pokemons} />}/>
           <Route path='/pokemon/:pokemonId' render={ (props)=> <PokemonDetail {...props} />} /> 
           <Route path='/about' component={ About } />
           <Route path='' component={ NotFound } />
